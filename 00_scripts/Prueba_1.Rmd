@@ -1,0 +1,87 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+Sidebar {.sidebar}
+===========================================================
+
+Button Inputs
+
+-Input 1
+
+-Input 2
+
+Page 1
+=======================================================================
+
+
+<!-- Sidebar {.sidebar} -->
+<!-- ------------------------------------------------------>
+
+<!-- Button Inputs -->
+
+<!-- - Input 1 -->
+
+<!-- - Input 2 -->
+
+
+
+Column {data-heigth=650 .tabset}
+-----------------------------------------------------------------------
+
+### Chart A.1
+
+```{r}
+
+```
+
+
+### Chart A.2
+
+```{r}
+
+```
+
+Page 2 {data-orientation=columns}
+===============================
+
+Column {data-height=100 .tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+
+### Chart D
+
+```{r}
+
+```
+
+Column {data-height=100 }
+---------------------------------
+
+### Chart E
+
+```{r}
+
+```
+
